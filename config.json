@@ -1,0 +1,64 @@
+{
+  "options": [
+    {
+      "id": "start",
+      "title": {
+        "en": "Generic Conference Room Setup",
+        "es": "Configuración de la sala de conferencias genérica"
+      },
+      "type": "choice",
+      "choices": [
+        {
+          "id": "main_computer",
+          "title": {
+            "en": "💻 Use the Main Computer",
+            "es": "💻 Usar la computadora principal"
+          },
+          "description": {
+            "en": "Use the PC already in the room",
+            "es": "Usar la PC que ya está en la sala"
+          }
+        },
+        {
+          "id": "laptop_hdmi",
+          "title": {
+            "en": "🔌 Connect My Laptop",
+            "es": "🔌 Conectar mi computadora portátil"
+          },
+          "description": {
+            "en": "Connect via HDMI",
+            "es": "Conectar por HDMI"
+          }
+        }
+      ],
+      "steps": {
+        "main_computer": [
+          {
+            "instruction": {
+              "en": "Turn on the TV using the remote.",
+              "es": "Encienda la TV usando el control remoto."
+            },
+            "image": "dummy-tv-on.jpg",
+            "alt": {
+              "en": "Image showing the TV remote",
+              "es": "Imagen que muestra el control remoto de la TV"
+            }
+          }
+        ],
+        "laptop_hdmi": [
+          {
+            "instruction": {
+              "en": "Plug the HDMI cable into your laptop.",
+              "es": "Conecte el cable HDMI a su computadora portátil."
+            },
+            "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "alt": {
+              "en": "Video showing how to plug in HDMI",
+              "es": "Video que muestra cómo conectar el HDMI"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
